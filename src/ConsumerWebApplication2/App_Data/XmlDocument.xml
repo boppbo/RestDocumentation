@@ -25,37 +25,6 @@
             
              <returns>   The created sample dto. </returns>
         </member>
-        <member name="T:DefaultHelppage.Controllers.ValuesController">
-            <summary>   A controller for handling values. </summary>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ValuesController.Get">
-             <summary>   Gets all available values. </summary>
-            
-             <returns>   An enumerator that allows foreach to be used to process the matched items. </returns>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ValuesController.Get(System.Int32)">
-             <summary>   Gets the value using the given identifier as postfix. </summary>
-            
-             <param name="id">   The Identifier. </param>
-            
-             <returns>   A string. </returns>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ValuesController.Post(System.String)">
-             <summary>   Post this message. </summary>
-            
-             <param name="value">    The value. </param>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ValuesController.Put(System.Int32,System.String)">
-             <summary>   Updates the value with the given ID. </summary>
-            
-             <param name="id">       The Identifier to update. </param>
-             <param name="value">    The value. </param>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ValuesController.Delete(System.Int32)">
-             <summary>   Deletes the value with the given ID. </summary>
-            
-             <param name="id">   The Identifier to delete. </param>
-        </member>
         <member name="T:RestDocumentation.Models.SampleDto">
             <summary>   A sample dto. </summary>
         </member>

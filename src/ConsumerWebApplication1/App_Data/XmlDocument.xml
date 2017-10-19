@@ -4,27 +4,6 @@
         <name>ConsumerWebApplication1</name>
     </assembly>
     <members>
-        <member name="T:DefaultHelppage.Controllers.ResponseTypeController">
-            <summary>   A controller for handling response types. </summary>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ResponseTypeController.Get(System.Int64)">
-             <summary>
-                 Gets a sample object
-             </summary>
-            
-             <param name="id">   The Identifier to get. </param>
-            
-             <returns>   A fancy sample dto. </returns>
-        </member>
-        <member name="M:DefaultHelppage.Controllers.ResponseTypeController.Create(RestDocumentation.Models.SampleDto)">
-             <summary>
-                 Creates a sample object
-             </summary>
-            
-             <param name="item"> The item. </param>
-            
-             <returns>   The created sample dto. </returns>
-        </member>
         <member name="T:DefaultHelppage.Controllers.ValuesController">
             <summary>   A controller for handling values. </summary>
         </member>

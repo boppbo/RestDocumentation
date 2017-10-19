@@ -117,9 +117,6 @@
     <Compile Include="..\DefaultHelppage\Controllers\ResponseTypeController.cs">
       <Link>Controllers\ResponseTypeController.cs</Link>
     </Compile>
-    <Compile Include="..\DefaultHelppage\Controllers\ValuesController.cs">
-      <Link>Controllers\ValuesController.cs</Link>
-    </Compile>
     <Compile Include="..\SampleDto.cs">
       <Link>Models\SampleDto.cs</Link>
     </Compile>

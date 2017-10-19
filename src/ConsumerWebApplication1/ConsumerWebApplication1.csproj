@@ -116,9 +116,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\DefaultHelppage\Controllers\ResponseTypeController.cs">
-      <Link>Controllers\ResponseTypeController.cs</Link>
-    </Compile>
     <Compile Include="..\DefaultHelppage\Controllers\ValuesController.cs">
       <Link>Controllers\ValuesController.cs</Link>
     </Compile>
