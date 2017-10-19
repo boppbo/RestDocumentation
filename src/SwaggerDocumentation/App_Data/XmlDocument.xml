@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDocumentation</name>
+    </assembly>
+    <members>
+        <member name="T:RestDocumentation.Models.SampleDto">
+            <summary>   A sample dto. </summary>
+        </member>
+        <member name="P:RestDocumentation.Models.SampleDto.Id">
+             <summary>   Gets or sets the identifier. </summary>
+            
+             <value> The identifier. </value>
+        </member>
+        <member name="P:RestDocumentation.Models.SampleDto.Name">
+             <summary>   Gets or sets the name. </summary>
+            
+             <value> The name. </value>
+        </member>
+        <member name="P:RestDocumentation.Models.SampleDto.IsValid">
+             <summary>   Gets or sets a value indicating whether this object is valid. </summary>
+            
+             <value> True if this object is valid, false if not. </value>
+        </member>
+        <member name="P:RestDocumentation.Models.SampleDto.NestedDto">
+             <summary>   Gets or sets the nested dto. </summary>
+            
+             <value> The nested dto. </value>
+        </member>
+        <member name="T:RestDocumentation.Models.NestedDto">
+            <summary>   A nested dto. </summary>
+        </member>
+        <member name="P:RestDocumentation.Models.NestedDto.Id">
+             <summary>   Gets or sets the identifier. </summary>
+            
+             <value> The identifier. </value>
+        </member>
+        <member name="P:RestDocumentation.Models.NestedDto.Description">
+             <summary>   Gets or sets the description. </summary>
+            
+             <value> The description. </value>
+        </member>
+        <member name="T:SwaggerDocumentation.SwaggerConfig">
+            <summary>   A swagger configuration. </summary>
+        </member>
+        <member name="M:SwaggerDocumentation.SwaggerConfig.Register">
+            <summary>   Registers this object. </summary>
+        </member>
+        <member name="T:SwaggerDocumentation.WebApiConfig">
+            <summary>   A web API configuration. </summary>
+        </member>
+        <member name="M:SwaggerDocumentation.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+             <summary>   Registers this object. </summary>
+            
+             <param name="config">   The configuration. </param>
+        </member>
+        <member name="T:SwaggerDocumentation.Controllers.SwaggerResponseTypeController">
+            <summary>   A controller for handling response types. </summary>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerResponseTypeController.Get(System.Int64)">
+             <summary>
+                 Gets a sample object
+             </summary>
+            
+             <param name="id">   The Identifier to get. </param>
+            
+             <returns>   A fancy sample. </returns>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerResponseTypeController.Create(RestDocumentation.Models.SampleDto)">
+             <summary>
+                 Creates a sample object
+             </summary>
+            
+             <param name="item"> The item. </param>
+            
+             <returns>   The created sample dto. </returns>
+        </member>
+        <member name="T:SwaggerDocumentation.Controllers.SwaggerValuesController">
+            <summary>   A controller for handling values. </summary>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerValuesController.Get">
+             <summary>   Gets all available values. </summary>
+            
+             <returns>   An enumerator that allows foreach to be used to process the matched items. </returns>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerValuesController.Get(System.Int32)">
+             <summary>   Gets the value using the given identifier as postfix. </summary>
+            
+             <param name="id">   The Identifier. </param>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerValuesController.Post(System.String)">
+             <summary>   Post this message. </summary>
+            
+             <param name="value">    The value. </param>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerValuesController.Put(System.Int32,System.String)">
+             <summary>   Updates the value with the given ID. </summary>
+            
+             <param name="id">       The Identifier to update. </param>
+             <param name="value">    The value. </param>
+        </member>
+        <member name="M:SwaggerDocumentation.Controllers.SwaggerValuesController.Delete(System.Int32)">
+             <summary>   Deletes the value with the given ID. </summary>
+            
+             <param name="id">   The Identifier to delete. </param>
+        </member>
+        <member name="T:SwaggerDocumentation.WebApiApplication">
+            <summary>   A web API application. </summary>
+        </member>
+        <member name="M:SwaggerDocumentation.WebApiApplication.Application_Start">
+            <summary>   Application start. </summary>
+        </member>
+    </members>
+</doc>
